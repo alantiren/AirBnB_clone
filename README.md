@@ -4,6 +4,7 @@ This project is part of the AirBnB clone project and focuses on building a comma
 
 ***
 **Getting Started**
+
 To start the console, simply run the console.py script. This will launch the command-line interface, where you can interact with the AirBnB objects.
 
 ```bash
@@ -12,6 +13,7 @@ The console will display a prompt (hbnb), indicating that it's ready to accept c
 ```
 ***
 **Commands**
+
 The console supports the following commands:
 
 1. quit or EOF: Exit the program.
