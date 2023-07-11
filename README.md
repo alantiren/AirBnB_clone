@@ -48,6 +48,7 @@ $
 ```
 ***
 **Authors**
+
 This project was developed by the following individuals:
 
 Daniel Dzrekey
@@ -55,4 +56,5 @@ Daniel Dzrekey
 ALAN TIREN
 ***
 **Contributions**
+
 We welcome contributions to this project. If you would like to contribute, please submit a pull request on GitHub.
