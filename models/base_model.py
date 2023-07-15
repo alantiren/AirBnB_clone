@@ -43,11 +43,12 @@ class BaseModel:
 
     def __str__(self):
         """Return the string representation of the BaseModel Class"""
-        return f"[{type(self).__name__}] ({self.id}) {self.__dict__}"
+        return "[{}] ({}) {}".\
+            format(type(self).__name__, self.id, self.__dict__)
 
     def save(self):
         """updates the time the instance was modified"""
-        updated_at = datetime.now()
+        self.updated_at = datetime.now()
         storage.save()
 
     def to_dict(self):
