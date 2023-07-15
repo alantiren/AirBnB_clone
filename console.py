@@ -12,6 +12,11 @@ class HBNBCommand(cmd.Cmd):
 
     prompt = "(hbnb) "
 
+    def emptyline(self):
+        """Doesn't do anything on ENTER and emptyline.
+        """
+        pass
+
     def default(self, line):
         """Catch commands if nothing else matches then."""
         # print("DEF:::", line)
