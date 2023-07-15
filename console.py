@@ -108,6 +108,20 @@ class HBNBCommand(cmd.Cmd):
             all_obj.pop(f"{arguments[0]}.{arguments[1]}")
             storage.save()
 
+    def do_count(self, line):
+        """count the number of instances created"""
+
+        words = line.split(' ')
+        if not words[0]:
+            print("** class name missing **")
+        elif words[0] not in storage.classes():
+            print("** class doesn't exist **")
+        else:
+            matches = [
+                k for k in storage.all() if k.startswith(
+                    words[0] + '.')]
+            print(len(matches))
+
     def do_all(self, line):
         """ print all the object in the storage; passing a class name will
             print all objects of the class
