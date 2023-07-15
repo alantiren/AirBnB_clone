@@ -43,7 +43,7 @@ class BaseModel:
 
     def __str__(self):
         """Return the string representation of the BaseModel Class"""
-        return f"[{BaseModel.__name__}] ({self.id}) {self.__dict__}"
+        return f"[{type(self).__name__}] ({self.id}) {self.__dict__}"
 
     def save(self):
         """updates the time the instance was modified"""
