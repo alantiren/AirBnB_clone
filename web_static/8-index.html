@@ -1,144 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>AirBnB</title>
+        <meta charset="utf-8">
+        <title>AirBnB clone</title>
         <link rel="stylesheet" href="styles/4-common.css">
         <link rel="stylesheet" href="styles/3-header.css">
         <link rel="stylesheet" href="styles/3-footer.css">
         <link rel="stylesheet" href="styles/6-filters.css">
         <link rel="stylesheet" href="styles/8-places.css">
-        <link rel="icon" href="images/icon.png">
+        <link rel="shortcut icon" href="images/icon.png">
+
     </head>
-    <header>
-        <div class="logo"></div>
-    </header>
-    <div class="container">
-        <section class="filters">
-            <div class="locations">
-                <h3>States</h3>
-                <h4>California, Arizona...</h4>
-                <ul class="popover">
-                    <li>
-                        <h2>Arizona:</h2>
-                        <p>Page</p>
-                        <p>Page2</p>
-                    </li>
-                    <li>
-                        <h2>California:</h2>
-                        <p>San Francisco</p>
-                        <p>Los Altos</p>
-                    </li>
-                </ul>
-            </div>
-            <div class="amenities">
-                <h3>Amenities</h3>
-                <h4>Internet, Kitchen...</h4>
-                <ul class="popover">
-                   <li>Internet</li>
-                   <li>TV</li>
-                   <li>Kitchen</li>
-                   <li>Iron</li> 
-                </ul>
-            </div>
-            <button>Search</button>
-        </section>
-        <section class="places">
-            <h1>Places</h1>
-            <div class="article-container">
+    <body>
+        <header>
+            <div class="logo"></div>
+        </header>
+        <div class="container">
+            <section class="filters">
+                <div class="locations">
+                    <h3>States</h3>
+                    <h4>California, Arizona...</h4>
+                    <ul class="popover">
+                        <li>
+                            <h2>Arizona:</h2>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>page 1</li>
+                                <li>page 2</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h2>California:</h2>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>San Francisco</li>
+                                <li>Los Altos</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="amenities">
+                    <h3>Amenities</h3>
+                    <h4>Internet, Kitchen...</h4>
+                    <ul class="popover">
+                        <li>Internet</li>
+                        <li>Kitchen</li>
+                        <li>Smart TV</li>
+                        <li>Pool</li>
+                    </ul>
+                </div>
+                <button>Search</button>
+            </section>
+            <section class="places">
+                <h1>Places</h1>
                 <article>
                     <h2>My home</h2>
-                    <div class="price-by-night">
-                        $80
+                    <div class="price_by_night">
+                        <p>$80</p>
                     </div>
                     <div class="information">
                         <div class="max_guest">
-                            <div class="icon"></div>
                             <p>2 Guests</p>
                         </div>
                         <div class="number_rooms">
-                            <div class="icon"></div>
-                            <p>1 Badroom</p>
+                            <p>1 bedroom</p>
                         </div>
-                        <div class="number_bathroom">
-                            <div class="icon"></div>
+                        <div class="number_bathrooms">
                             <p>1 Bathroom</p>
                         </div>
                     </div>
                     <div class="user">
-                        <b>Owner:</b> John Lennon
+                        <b>Owner:</b> Luka Couffaine
                     </div>
                     <div class="description">
-                        <p>THis is a lovely 1 badroom and 1 bathroom apartment that can 
-                        accomodate 2 people. It locates at the center of shanghai
-                        and next to subway line 1. 1 stop to people square, 2 stops 
-                        to bund 3 stops to Jinga Temple</p>
+                        <p>
+                            This is a lovely 1 bedroom and 1 Bathroom 
+                            apartment that can accommodate 2 people. 
+                            It locates at the center of Shanghai and 
+                            next to subway line 1, stop to People Square, 
+                            2 stops to Bund, 3 stops to Jingan Temple.
+                        </p>
                     </div>
                 </article>
                 <article>
-                    <h2>Tiny house</h2>
-                    <div class="price-by-night">
-                        $65
+                    <h2>Tiny home</h2>
+                    <div class="price_by_night">
+                        <p>$65</p>
                     </div>
                     <div class="information">
                         <div class="max_guest">
-                            <div class="icon"></div>
                             <p>4 Guests</p>
                         </div>
                         <div class="number_rooms">
-                            <div class="icon"></div>
-                            <p>2 Badroom</p> 
+                            <p>2 bedrooms</p>
                         </div>
-                        <div class="number_bathroom">
-                            <div class="icon"></div>
+                        <div class="number_bathrooms">
                             <p>1 Bathroom</p>
                         </div>
                     </div>
                     <div class="user">
-                        <b>Owner:</b> Adrienne
+                        <b>Owner:</b> Adrien Agreste
                     </div>
                     <div class="description">
-                        <p>THis is a lovely 1 badroom and 1 bathroom apartment that can 
-                        accomodate 2 people. It locates at the center of shanghai
-                        and next to subway line 1. 1 stop to people square, 2 stops 
-                        to bund 3 stops to Jinga Temple THis is a lovely 1 badroom and 1 bathroom apartment that can 
-                        accomodate 2 people. It locates at the center of shanghai
-                        and next to subway line 1. 1 stop to people square, 2 stops 
-                        to bund 3 stops to Jinga Temple  
+                        <p>
+                            Enjoy the simplicity of this quiet and central 
+                            accommodation. Located on the second floor, 
+                            in the historic center 500 meters from the 
+                            Plaza de Armas, walking they arrive in 6 
+                            minutes, it has two double beds, two 
+                            bedrooms, a bathroom, a completely independent 
+                            kitchen-dining room environment.
                         </p>
                     </div>
                 </article>
                 <article>
                     <h2>A suite</h2>
-                    <div class="price-by-night">
-                        $190
+                    <div class="price_by_night">
+                        <p>$180</p>
                     </div>
                     <div class="information">
                         <div class="max_guest">
-                            <div class="icon"></div>
-                            <p>8 Guests</p>
+                            <p>6 Guests</p>
                         </div>
                         <div class="number_rooms">
-                            <div class="icon"></div>
-                            <p>4 Badroom</p>
+                            <p>3 bedrooms</p>
                         </div>
-                        <div class="number_bathroom">
-                            <div class="icon"></div>
-                            <p>2 Bathroom</p>
+                        <div class="number_bathrooms">
+                            <p>3 Bathrooms</p>
                         </div>
                     </div>
                     <div class="user">
-                        <b>Owner:</b> Adrienne
+                        <b>Owner:</b> Marinette Dupain-Cheng
                     </div>
                     <div class="description">
-                        <p>THis is a lovely 1 badroom and 1 bathroom apartment that can 
-                            accomodate 2 people. It locates at the center of shanghai
-                            and next to subway line 1. 1 stop to people square, 2 stops 
-                            to bund 3 stops to Jinga Temple  
-                            </p>
+                        <p>
+                            Castel Saba is located in Spain, on the 
+                            Costa Blanca, slightly south of Alicante. 
+                            The place is very quiet, close to the sea 
+                            and the countryside. The property is surrounded 
+                            by a pine forest: the house dominates cultures 
+                            of fruit trees, especially oranges and 
+                            lemons and also the natural reserve of the 
+                            region, the Rio Seco.
+                        </p>
                     </div>
-                </article>     
-            </div>
-        </section>
-    </div>
-    <footer>Best School</footer>
+                </article>
+            </section>
+        </div>
+        <footer>
+            <p>Best School</p>
+        </footer>
+    </body>
 </html>

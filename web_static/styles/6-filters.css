@@ -5,66 +5,89 @@
     width: 100%;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
+    position: relative;
     display: flex;
     align-items: center;
-    position: relative;
+    
+}
+.filters button {
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border: 0px;
+    border-radius: 4px;
+    right: 30px;
+    top: 15%;
+    position: absolute;
+}
+.filters button:hover {
+    opacity: 90%;
 }
 
-.locations,
-.amenities {
+.filters>.locations, .filters>.amenities {
     height: 100%;
     width: 25%;
+    padding: 15px, 40px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding-left: 20px;
+    position: relative;
+}
+.locations {
     border-right: 1px solid #DDDDDD;
-    cursor: pointer;
 }
-
-.amenities {
-    border-right: none;
-    padding-right: 30px;
-}
-
-h3 {
+.filters h3 {
     font-weight: 600;
-    margin: 0;
+    margin: 2px 20px;
 }
-
-h4 {
+.filters h4 {
     font-weight: 400;
     font-size: 14px;
-    margin: 0;
+    margin: 2px 20px;
 }
-
 .popover {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    list-style: none;
-    padding: 0;
-    width: 100%;
     background-color: #FAFAFA;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
-    color: #484848;
-    cursor: auto;
+    display: none;
+    top: 100%;
+    position: absolute;
+    left: 0;
+    width: 250px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+    list-style: none;
+    
 }
 
-.locations:hover .popover,
-.amenities:hover .popover {
+div:hover > .popover {
     display: block;
+    cursor: pointer;
+}
+
+.popover ul {
+    list-style-type: none;
 }
 
 .popover h2 {
     font-size: 16px;
-    font-weight: 600;
-    margin: 10px 0;
 }
 
-.popover ul {
+.popover li {
+    margin: 10px 0px 5px 0px; 
+    list-style: none;
     padding-left: 20px;
-    margin: 0;
+    display: block;
+    grid-row-gap: 4px;
+}
+
+.locations:hover > .popover {
+display: block;
+}
+
+.amenities:hover > .popover {
+    display: block;
 }
