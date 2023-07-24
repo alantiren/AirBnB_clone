@@ -1,20 +1,15 @@
 /* 3-header.css */
-header {
-    background-color: #FF0000;
-    height: 70px;
-    width: 100%;
-    border-bottom: 1px solid #CCCCCC;
-    display: flex;
-    align-items: center;
+header{
+	background-color: #ffffff;
+	height: 70px;
+ 	width: 100%;
+	border-bottom: 1px solid #cccccc;
 }
-
-header img {
-    margin-left: 20px;
-    display: block;
-}
-
-header img,
-header img:hover {
-    height: 30px;
-    width: auto;
+.logo{
+	background-image: url("../images/logo.png");
+	height: 100%;
+	width: 142px;
+	margin-left: 20px;
+	background-repeat: no-repeat;
+	background-position: center;
 }

@@ -1,16 +1,8 @@
 /* 3-common.css */
-body {
-    margin: 0;
-    padding: 0;
-    color: #484848;
-    font-size: 14px;
-    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+body{
+	margin: 0;
+	padding: 0;
+	color: #484848;
+	font-size: 14px;
+	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-
-main {
-    height: calc(100vh - 130px);
-}
-
-/* Icon in the browser tab */
-/* Add your favicon file (icon) to the head tag */
-/* Example: <link rel="icon" href="./images/favicon.ico" type="image/x-icon"> */

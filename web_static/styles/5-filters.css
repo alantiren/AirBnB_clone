@@ -1,35 +1,44 @@
 /* 5-filters.css */
-.filters {
-    background-color: white;
+.container section.filters{
+    background-color: #ffffff;
     height: 70px;
     width: 100%;
-    border: 1px solid #DDDDDD;
+    border: 1px solid  #dddddd;
     border-radius: 4px;
+    position: relative;
     display: flex;
     align-items: center;
 }
-
-.locations,
-.amenities {
+button{
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #ffffff;
+    height: 48px;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    position: absolute;
+    right: 30px;
+}
+button:hover{
+    opacity: 90%;
+}
+h3{
+    font-weight: 600;
+    margin: 0;
+}
+h4{
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+}
+.locations, .amenities{
     height: 100%;
     width: 25%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 20px;
-    border-right: 1px solid #DDDDDD;
+    align-items: flex-start;
+    padding-left: 30px;
 }
-
-.amenities {
-    border-right: none;
-    padding-right: 30px;
-}
-
-h3 {
-    font-weight: 600;
-}
-
-h4 {
-    font-weight: 400;
-    font-size: 14px;
-}
+.locations{border-right:1px solid #dddddd;}

@@ -3,7 +3,3 @@ body {
     margin: 0;
     padding: 0;
 }
-
-main {
-    height: calc(100vh - 130px);
-}
