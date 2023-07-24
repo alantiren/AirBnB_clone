@@ -1,5 +1,6 @@
+/* 3-header.css */
 header {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     height: 70px;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
@@ -8,9 +9,12 @@ header {
 }
 
 header img {
-    background-image: url("../images/logo.png");
     margin-left: 20px;
     display: block;
+}
+
+header img,
+header img:hover {
     height: 30px;
     width: auto;
 }
