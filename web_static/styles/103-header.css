@@ -1,0 +1,15 @@
+/* 103-header.css */
+header {
+    background-color: #FF0000;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+header img {
+    max-height: 100%;
+    max-width: 100%;
+}

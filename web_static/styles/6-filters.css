@@ -1,0 +1,70 @@
+/* 6-filters.css */
+.filters {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.locations,
+.amenities {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    border-right: 1px solid #DDDDDD;
+    cursor: pointer;
+}
+
+.amenities {
+    border-right: none;
+    padding-right: 30px;
+}
+
+h3 {
+    font-weight: 600;
+    margin: 0;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+}
+
+.popover {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    color: #484848;
+    cursor: auto;
+}
+
+.locations:hover .popover,
+.amenities:hover .popover {
+    display: block;
+}
+
+.popover h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.popover ul {
+    padding-left: 20px;
+    margin: 0;
+}
