@@ -1,15 +1,12 @@
 /* 3-header.css */
-header{
-	background-color: #ffffff;
-	height: 70px;
- 	width: 100%;
-	border-bottom: 1px solid #cccccc;
+header {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
 }
-.logo{
-	background-image: url("../images/logo.png");
-	height: 100%;
-	width: 142px;
-	margin-left: 20px;
-	background-repeat: no-repeat;
-	background-position: center;
+header.logo {
+    margin-left: 20px;
 }
