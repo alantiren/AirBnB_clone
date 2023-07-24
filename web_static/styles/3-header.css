@@ -1,14 +1,20 @@
-header{
-	background-color: #ffffff;
-	height: 70px;
- 	width: 100%;
-	border-bottom: 1px solid #cccccc;
+header {
+    background-color: #ffffff;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+    display: flex;
+    align-items: center;
 }
-.logo{
-	background-image: url("../images/logo.png");
-	height: 100%;
-	width: 142px;
-	margin-left: 20px;
-	background-repeat: no-repeat;
-	background-position: center;
+
+header img {
+    background-image: url("../images/logo.png");
+    margin-left: 20px;
+    display: block;
+}
+
+header img,
+header img:hover {
+    height: 30px;
+    width: auto;
 }
