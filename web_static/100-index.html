@@ -1,114 +1,226 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Header, Footer, Filter Box, and Search Results</title>
-    <link rel="stylesheet" href="./styles/4-common.css">
-    <link rel="stylesheet" href="./styles/3-header.css">
-    <link rel="stylesheet" href="./styles/6-filters.css">
-    <link rel="stylesheet" href="./styles/3-footer.css">
-    <link rel="stylesheet" href="./styles/100-places.css">
-</head>
-<body>
-    <!-- Header -->
+<html lang="en">
+    <head>
+        <title>AirBnB</title>
+        <link rel="stylesheet" href="styles/4-common.css">
+        <link rel="stylesheet" href="styles/3-header.css">
+        <link rel="stylesheet" href="styles/3-footer.css">
+        <link rel="stylesheet" href="styles/6-filters.css">
+        <link rel="stylesheet" href="styles/100-places.css">
+        <link rel="icon" href="images/icon.png">
+    </head>
     <header>
-        <img src="./images/logo.png" alt="Logo">
+        <div class="logo"></div>
     </header>
-
-    <!-- Filters Section -->
     <div class="container">
         <section class="filters">
             <div class="locations">
                 <h3>States</h3>
+                <h4>California, Arizona...</h4>
                 <ul class="popover">
                     <li>
-                        <h2>State 1</h2>
-                        <ul>
-                            <li>City 1</li>
-                            <li>City 2</li>
-                        </ul>
+                        <h2>Arizona:</h2>
+                        <p>Page</p>
+                        <p>Page2</p>
                     </li>
                     <li>
-                        <h2>State 2</h2>
-                        <ul>
-                            <li>City 3</li>
-                            <li>City 4</li>
-                        </ul>
+                        <h2>California:</h2>
+                        <p>San Francisco</p>
+                        <p>Los Altos</p>
                     </li>
                 </ul>
             </div>
             <div class="amenities">
                 <h3>Amenities</h3>
+                <h4>Internet, Kitchen...</h4>
                 <ul class="popover">
-                    <li>Fake Amenity 1</li>
-                    <li>Fake Amenity 2</li>
+                   <li>Internet</li>
+                   <li>TV</li>
+                   <li>Kitchen</li>
+                   <li>Iron</li> 
                 </ul>
             </div>
-            <button class="search-btn">Search</button>
+            <button>Search</button>
+        </section>
+        <section class="places">
+            <h1>Places</h1>
+            <div class="article-container">
+                <article>
+                    <h2>My home</h2>
+                    <div class="price-by-night">
+                        $80
+                    </div>
+                    <div class="information">
+                        <div class="max_guest">
+                            <div class="icon"></div>
+                            <p>2 Guests</p>
+                        </div>
+                        <div class="number_rooms">
+                            <div class="icon"></div>
+                            <p>1 Badroom</p>
+                        </div>
+                        <div class="number_bathroom">
+                            <div class="icon"></div>
+                            <p>1 Bathroom</p>
+                        </div>
+                    </div>
+                    <div class="user">
+                        <b>Owner:</b> John Lennon
+                    </div>
+                    <div class="description">
+                        <p>THis is a lovely 1 badroom and 1 bathroom apartment that can 
+                        accomodate 2 people. It locates at the center of shanghai
+                        and next to subway line 1. 1 stop to people square, 2 stops 
+                        to bund 3 stops to Jinga Temple</p>
+                    </div>
+                    <div class="amenities">
+                        <h2>Amenities</h2>
+                        <ul>
+                            <li class="icon">
+                                <div class="tv"></div>
+                                TV
+                            </li>
+                            <li class="icon">
+                                <div class="wifi"></div>
+                                WIFI
+                            </li>
+                            <li class="icon">
+                                <div class="pets"></div>
+                                Pets friendly
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="reviews">
+                        <h2>Reviews</h2>
+                        <ul>
+                            <li>
+                                <h3>From Bob Dylan the 27th January 2017</h3>
+                                <p>Runshi is an epic host. Nothing more i can say. 5 star!</p>
+                            </li>
+                            <li>
+                                <h3>From Bob Dylan the 27th January 2017</h3>
+                                <p>Runshi is an epic host. Nothing more i can say. 5 star!</p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <h2>Tiny house</h2>
+                    <div class="price-by-night">
+                        $65
+                    </div>
+                    <div class="information">
+                        <div class="max_guest">
+                            <div class="icon"></div>
+                            <p>4 Guests</p>
+                        </div>
+                        <div class="number_rooms">
+                            <div class="icon"></div>
+                            <p>2 Badroom</p> 
+                        </div>
+                        <div class="number_bathroom">
+                            <div class="icon"></div>
+                            <p>1 Bathroom</p>
+                        </div>
+                    </div>
+                    <div class="user">
+                        <b>Owner:</b> Adrienne
+                    </div>
+                    <div class="description">
+                        <p>THis is a lovely 1 badroom and 1 bathroom apartment that can 
+                        accomodate 2 people. It locates at the center of shanghai
+                        and next to subway line 1. 1 stop to people square, 2 stops 
+                        to bund 3 stops to Jinga Temple THis is a lovely 1 badroom and 1 bathroom apartment that can 
+                        accomodate 2 people. It locates at the center of shanghai
+                        and next to subway line 1. 1 stop to people square, 2 stops 
+                        to bund 3 stops to Jinga Temple  
+                        </p>
+                    </div>
+                    <div class="amenities">
+                        <h2>Amenities</h2>
+                        <ul>
+                            <li class="icon">
+                                <div class="pets" ></div>
+                                Pets friendly
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="reviews">
+                        <h2>Reviews</h2>
+                        <ul>
+                            <li>
+                                <h3>From Bob Dylan the 27th January 2017</h3>
+                                <p>Runshi is an epic host. Nothing more i can say. 5 star!</p>
+                            </li>
+                            <li>
+                                <h3>From Bob Dylan the 27th January 2017</h3>
+                                <p>Runshi is an epic host. Nothing more i can say. 5 star!</p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>
+                <article>
+                    <h2>A suite</h2>
+                    <div class="price-by-night">
+                        $190
+                    </div>
+                    <div class="information">
+                        <div class="max_guest">
+                            <div class="icon"></div>
+                            <p>8 Guests</p>
+                        </div>
+                        <div class="number_rooms">
+                            <div class="icon"></div>
+                            <p>4 Badroom</p>
+                        </div>
+                        <div class="number_bathroom">
+                            <div class="icon"></div>
+                            <p>2 Bathroom</p>
+                        </div>
+                    </div>
+                    <div class="user">
+                        <b>Owner:</b> Adrienne
+                    </div>
+                    <div class="description">
+                        <p>THis is a lovely 1 badroom and 1 bathroom apartment that can 
+                            accomodate 2 people. It locates at the center of shanghai
+                            and next to subway line 1. 1 stop to people square, 2 stops 
+                            to bund 3 stops to Jinga Temple  
+                            </p>
+                    </div>
+                    <div class="amenities">
+                        <h2>Amenities</h2>
+                        <ul>
+                            <li class="icon">
+                                <div class="tv"></div>
+                                TV
+                            </li>
+                            <li class="icon">
+                                <div class="wifi"></div>
+                                WIFI
+                            </li>
+                            <li  class="icon">
+                                <div class="pets"></div>
+                                Pets friendly
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="reviews">
+                        <h2>Reviews</h2>
+                        <ul>
+                            <li>
+                                <h3>From Bob Dylan the 27th January 2017</h3>
+                                <p>Runshi is an epic host. Nothing more i can say. 5 star!</p>
+                            </li>
+                            <li>
+                                <h3>From Bob Dylan the 27th January 2017</h3>
+                                <p>Runshi is an epic host. Nothing more i can say. 5 star!</p>
+                            </li>
+                        </ul>
+                    </div>
+                </article>     
+            </div>
         </section>
     </div>
-
-    <!-- Places Section -->
-    <section class="places">
-        <h1>Places</h1>
-        <article>
-            <div class="place-info">
-                <h2>Place 1</h2>
-                <div class="price_by_night">$100</div>
-            </div>
-            <div class="information">
-                <div class="max_guest">
-                    <strong>Number of guests:</strong>
-                    <span>Fake text</span>
-                </div>
-                <div class="number_rooms">
-                    <strong>Number of bedrooms:</strong>
-                    <span>Fake text</span>
-                </div>
-                <div class="number_bathrooms">
-                    <strong>Number of bathrooms:</strong>
-                    <span>Fake text</span>
-                </div>
-                <div class="user">
-                    <strong>User: </strong>
-                    <span>Fake text</span>
-                </div>
-            </div>
-            <div class="description">
-                <p>Fake description text</p>
-            </div>
-            <div class="amenities">
-                <h2>Amenities</h2>
-                <ul>
-                    <li>Pet friendly</li>
-                    <li>TV</li>
-                    <li>Wifi</li>
-                    <!-- Add more amenities here -->
-                </ul>
-            </div>
-            <div class="reviews">
-                <h2>Reviews</h2>
-                <ul>
-                    <li>
-                        <h3>From Bob Dylan the 27th January 2017</h3>
-                        <p>Fake review text 1</p>
-                    </li>
-                    <li>
-                        <h3>From John Doe the 15th June 2019</h3>
-                        <p>Fake review text 2</p>
-                    </li>
-                    <!-- Add more reviews here -->
-                </ul>
-            </div>
-        </article>
-        <!-- Add more articles for more places -->
-    </section>
-
-    <!-- Main Content (Body) -->
-    <main></main>
-
-    <!-- Footer -->
-    <footer>
-        <p>Best School</p>
-    </footer>
-</body>
+    <footer>Best School</footer>
 </html>
