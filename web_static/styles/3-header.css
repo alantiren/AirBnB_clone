@@ -11,10 +11,6 @@ header img {
     background-image: url("../images/logo.png");
     margin-left: 20px;
     display: block;
-}
-
-header img,
-header img:hover {
     height: 30px;
     width: auto;
 }
